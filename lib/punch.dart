@@ -18,19 +18,65 @@ class _PunchState extends State<Punch> {
   _PunchState({this.user});
   int _punchCount = 0;
   SharedPreferences sharedPreferences;
+  String spKey = 'timer';
+  int constTimer = 0;
+  int _timer = 0;
+  bool timerActive = false;
+  Timer _timerClass;
+
   @override
   void initState() {
     super.initState();
     checkLoginStatus();
+    SharedPreferences.getInstance().then((SharedPreferences sp) {
+      sharedPreferences = sp;
+      _timer = (sharedPreferences.getInt(spKey)) * 60;
+      constTimer = _timer;
+      // will be null if never previously saved
+      if (_timer == null) {
+        _timer = 0;
+        persist(_timer); // set an initial value
+      }
+      setState(() {});
+    });
+  }
+
+  void persist(int value) {
+    setState(() {
+      _timer = value;
+      constTimer = _timer;
+    });
+    sharedPreferences?.setInt(spKey, value);
+  }
+
+  void startTimer() {
+    const oneSec = const Duration(seconds: 1);
+    _timerClass = new Timer.periodic(
+      oneSec,
+      (Timer timer) => setState(
+        () {
+          _timer = _timer - 1;
+        },
+      ),
+    );
   }
 
   int Punch() {
     setState(() {
       print(_punchCount);
-      punchRequest();
-      _punchCount += 1;
-      print("PUNCH!");
-      print(_punchCount);
+      if ((constTimer - _timer) > 5 || timerActive == false) {
+        punchRequest();
+        _punchCount += 1;
+
+        if (timerActive == false) {
+          startTimer();
+          timerActive = true;
+        } else {
+          _timer = constTimer;
+        }
+        print("PUNCH!");
+        print(_punchCount);
+      }
     });
 
     return _punchCount;
@@ -52,7 +98,11 @@ class _PunchState extends State<Punch> {
         sharedPreferences.getString("token") +
         " " +
         sharedPreferences.getString("unique_id"));
-    Map data = {"unique_id": sharedPreferences.getString("unique_id")};
+    Map data = {
+      "unique_id": sharedPreferences.getString("unique_id"),
+      "time_required":
+          (_timer < 1) ? (constTimer + (-_timer)) : (constTimer - _timer)
+    };
     String body = json.encode(data);
     print(body);
     try {
@@ -146,14 +196,56 @@ class _PunchState extends State<Punch> {
             backgroundColor: Colors.deepOrangeAccent,
             body: Builder(builder: (BuildContext context) {
               return Container(
-                  alignment: Alignment.center,
+                  alignment: Alignment.topCenter,
                   child: Flex(
                       direction: Axis.vertical,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        Text(
-                          'Counter : $_punchCount\n',
-                          style: TextStyle(fontSize: 25, color: Colors.white),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          padding: EdgeInsets.all(10),
+                          alignment: Alignment.center,
+                          decoration: BoxDecoration(
+                              color: Colors.orange,
+                              border: Border.all(
+                                  color: Colors.pink[800], // set border color
+                                  width: 3.0), // set border width
+                              borderRadius: BorderRadius.all(Radius.circular(
+                                  10.0)), // set rounded corner radius
+                              boxShadow: [
+                                BoxShadow(
+                                    blurRadius: 10,
+                                    color: Colors.black,
+                                    offset: Offset(1, 3))
+                              ] // make rounded corner of border
+                              ),
+                          child: Text(
+                            'Time : $_timer' + ' ' + 'seconds\n',
+                            style: TextStyle(fontSize: 25, color: Colors.white),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          padding: EdgeInsets.all(10),
+                          alignment: Alignment.center,
+                          decoration: BoxDecoration(
+                              color: Colors.orange,
+                              border: Border.all(
+                                  color: Colors.pink[800], // set border color
+                                  width: 3.0), // set border width
+                              borderRadius: BorderRadius.all(Radius.circular(
+                                  10.0)), // set rounded corner radius
+                              boxShadow: [
+                                BoxShadow(
+                                    blurRadius: 10,
+                                    color: Colors.black,
+                                    offset: Offset(1, 3))
+                              ] // make rounded corner of border
+                              ),
+                          child: Text(
+                            'Counter : $_punchCount\n',
+                            style: TextStyle(fontSize: 25, color: Colors.white),
+                          ),
                         ),
                         RawMaterialButton(
                           onPressed: () => Punch(),

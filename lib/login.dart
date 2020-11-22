@@ -56,18 +56,21 @@ class _LoginScreenState extends State<LoginScreen> {
     );
 
     if (response.statusCode == 200) {
-      print('TOKEN get??' + response.body);
       SharedPreferences sharedPreferences =
           await SharedPreferences.getInstance();
       var jsonResponse = json.decode(response.body);
       sharedPreferences.setString("token", jsonResponse['token']);
       sharedPreferences.setString("unique_id", jsonResponse['unique_id']);
+      sharedPreferences.setString("workstation",
+          jsonResponse["workstation"]["workstation"]["workstation_name"]);
+      sharedPreferences.setString(
+          "assembly_line", jsonResponse["assembly_line"]["name"]);
+      sharedPreferences.setInt("timer", jsonResponse["assembly_line"]["timer"]);
+      // print("HMMMM :");
+      // print(jsonResponse["assembly_line"]["timer"]);
+      // print(sharedPreferences.getInt("timer"));
       String user =
           jsonResponse['first_name'] + " " + jsonResponse['last_name'];
-      print('TOKEN get??' +
-          jsonResponse['token'] +
-          " " +
-          jsonResponse['unique_id']);
       showDialog(
         context: context,
         barrierDismissible: false,

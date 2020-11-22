@@ -12,19 +12,19 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\flutter\Punch_v1\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->D:\flutter\Punch_v1\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Punch\Punch_v1\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Punch\Punch_v1\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
-15-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+15-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+15-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
 16
 17    <uses-feature android:name="android.hardware.camera" />
-17-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
-17-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
+17-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
+17-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
 18
 19    <uses-permission android:name="android.permission.FLASHLIGHT" />
-19-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-69
-19-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-66
+19-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-69
+19-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-66
 20    <!--
 21 io.flutter.app.FlutterApplication is an android.app.Application that
 22         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -33,34 +33,34 @@
 25         FlutterApplication and put your custom class here.
 26    -->
 27    <application
-27-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:8:5-46:19
+27-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:8:5-46:19
 28        android:name="io.flutter.app.FlutterApplication"
-28-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:9:9-57
+28-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:9:9-57
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.1.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+29-->[androidx.core:core:1.1.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
 30        android:debuggable="true"
 31        android:icon="@mipmap/ic_launcher"
-31-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:11:9-43
+31-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:11:9-43
 32        android:label="Punch_v1"
-32-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:10:9-33
+32-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:10:9-33
 33        android:largeHeap="true"
-33-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
+33-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
 34        android:theme="@style/Theme.AppCompat.NoActionBar" >
-34-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-59
+34-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-59
 35        <activity
-35-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:12:9-40:20
+35-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:12:9-40:20
 36            android:name="com.example.Punch_v1.MainActivity"
-36-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:13:13-41
+36-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:13:13-41
 37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-37-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:16:13-163
+37-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:16:13-163
 38            android:hardwareAccelerated="true"
-38-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:17:13-47
+38-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:17:13-47
 39            android:launchMode="singleTop"
-39-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:14:13-43
+39-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:14:13-43
 40            android:theme="@style/LaunchTheme"
-40-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:15:13-47
+40-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:15:13-47
 41            android:windowSoftInputMode="adjustResize" >
-41-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:18:13-55
+41-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:18:13-55
 42
 43            <!--
 44                 Specifies an Android theme to apply to this Activity as soon as
@@ -69,11 +69,11 @@
 47                 to determine the Window background behind the Flutter UI.
 48            -->
 49            <meta-data
-49-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:23:13-26:17
+49-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:23:13-26:17
 50                android:name="io.flutter.embedding.android.NormalTheme"
-50-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:24:15-70
+50-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:24:15-70
 51                android:resource="@style/NormalTheme" />
-51-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:25:15-52
+51-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:25:15-52
 52            <!--
 53                 Displays an Android View that continues showing the launch screen
 54                 Drawable until Flutter paints its first frame, then this splash
@@ -82,21 +82,21 @@
 57                 Flutter's first frame.
 58            -->
 59            <meta-data
-59-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:32:13-35:17
+59-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:32:13-35:17
 60                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-60-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:33:15-79
+60-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:33:15-79
 61                android:resource="@drawable/launch_background" />
-61-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:34:15-61
+61-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:34:15-61
 62
 63            <intent-filter>
-63-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:36:13-39:29
+63-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:36:13-39:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:37:17-68
-64-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:37:25-66
+64-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:37:17-68
+64-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:37:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:38:17-76
-66-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:38:27-74
+66-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:38:17-76
+66-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:38:27-74
 67            </intent-filter>
 68        </activity>
 69        <!--
@@ -104,30 +104,30 @@
 71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 72        -->
 73        <meta-data
-73-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:43:9-45:33
+73-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:43:9-45:33
 74            android:name="flutterEmbedding"
-74-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:44:13-44
+74-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:44:13-44
 75            android:value="2" />
-75-->D:\flutter\Punch_v1\android\app\src\main\AndroidManifest.xml:45:13-30
+75-->C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:45:13-30
 76
 77        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
-77-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
-77-->[:flutter_barcode_scanner] D:\flutter\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
+77-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-91
+77-->[:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-88
 78        <activity
-78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 80            android:exported="false"
-80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 82
 83        <meta-data
-83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\fd2377af361a84a60d63cb4e9b00db87\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\490d93d1367bca7afc23aa04679c6222\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 84            android:name="com.google.android.gms.version"
-84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\fd2377af361a84a60d63cb4e9b00db87\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\490d93d1367bca7afc23aa04679c6222\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 85            android:value="@integer/google_play_services_version" />
-85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anmol\.gradle\caches\transforms-2\files-2.1\fd2377af361a84a60d63cb4e9b00db87\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\490d93d1367bca7afc23aa04679c6222\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 86    </application>
 87
 88</manifest>
