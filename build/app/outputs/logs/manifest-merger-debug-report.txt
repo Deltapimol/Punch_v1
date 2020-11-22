@@ -6,8 +6,10 @@ INJECTED from C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:1:1-47:
 INJECTED from C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from [:shared_preferences] C:\Punch\Punch_v1\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audioplayers] C:\Punch\Punch_v1\build\audioplayers\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Punch\Punch_v1\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] C:\Punch\Punch_v1\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:device_info] C:\Punch\Punch_v1\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\db2388f0fe5e05a7a168e5a9c11e912f\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\7def8d6c3751559765cf68c2d5a2dddd\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -153,10 +155,14 @@ INJECTED from C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Punch\Punch_v1\android\app\src\main\AndroidManifest.xml
 MERGED from [:shared_preferences] C:\Punch\Punch_v1\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] C:\Punch\Punch_v1\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers] C:\Punch\Punch_v1\build\audioplayers\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-44
+MERGED from [:audioplayers] C:\Punch\Punch_v1\build\audioplayers\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-44
 MERGED from [:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_barcode_scanner] C:\Punch\Punch_v1\build\flutter_barcode_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] C:\Punch\Punch_v1\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Punch\Punch_v1\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Punch\Punch_v1\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Punch\Punch_v1\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:device_info] C:\Punch\Punch_v1\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:device_info] C:\Punch\Punch_v1\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Anveshak\.gradle\caches\transforms-2\files-2.1\db2388f0fe5e05a7a168e5a9c11e912f\material-1.0.0\AndroidManifest.xml:20:5-44

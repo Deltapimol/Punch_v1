@@ -27,7 +27,7 @@ dependencies:
   http: ^0.12.2
   device_info: ^0.4.2+8
   shared_preferences: ^0.4.0
-    
+  audioplayers: ^0.10.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
@@ -45,8 +45,9 @@ flutter_icons:
   
 # The following section is specific to Flutter.
 flutter:
-
-  # The following line ensures that the Material Icons font is
+  assets:
+    - assets/buzzer.mp3
+    - assets/timer_reset.mp3  # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
